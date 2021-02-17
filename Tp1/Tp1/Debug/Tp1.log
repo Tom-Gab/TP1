@@ -1,8 +1,0 @@
-﻿prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: __thiscall Point2D::Point2D(int,int)" (??0Point2D@@QAE@HH@Z) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: __thiscall Niveau::Niveau(int *,class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> >,class Point2D)" (??0Niveau@@QAE@PAHV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@VPoint2D@@@Z) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: __thiscall Niveau::~Niveau(void)" (??1Niveau@@QAE@XZ) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: int * __thiscall Niveau::getCarte(void)" (?getCarte@Niveau@@QAEPAHXZ) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > __thiscall Niveau::getNomCreature(void)" (?getNomCreature@Niveau@@QAE?AV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@XZ) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: void __thiscall Niveau::getDeplacementPossible(bool *)" (?getDeplacementPossible@Niveau@@QAEXPA_N@Z) referenced in function _main
-prog3_tp1_deplacementCarte.obj : error LNK2019: unresolved external symbol "public: void __thiscall Niveau::deplacerCreature(enum constantes::Direction)" (?deplacerCreature@Niveau@@QAEXW4Direction@constantes@@@Z) referenced in function _main
-C:\Users\Utilisateur\source\repos\Tp1\Debug\Tp1.exe : fatal error LNK1120: 7 unresolved externals
