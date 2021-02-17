@@ -26,11 +26,44 @@ std::string Niveau::getNomCreature() { nomCreature; }
 void Niveau::getDeplacementPossible(bool* tabDeplacements) {
 	if (Point2D x >= 0)
 	{
-		deplacerCreature"g" = true;
+		tabDeplacementsPossibles[0] = true;
+	}
+
+	if (Point2D y >= 0)
+	{
+		tabDeplacementsPossibles[3] = true;
+	}
+
+	if (Point2D y >= 0 && x>= 0)
+	{
+		tabDeplacementsPossibles[1] = true;
+	}
+
+	if (Point2D y >= 1)
+	{
+		tabDeplacementsPossibles[2] = true;
 	}
 
 }
 
 void Niveau::deplacerCreature(constantes::Direction direction) {
+	if (tabDeplacementsPossibles[0])
+	{
+		m_carte = direction;
+	}
 
+	if (tabDeplacementsPossibles[1])
+	{
+		m_carte = direction;
+	}
+
+	if (tabDeplacementsPossibles[2])
+	{
+		m_carte = direction;
+	}
+
+	if (tabDeplacementsPossibles[3])
+	{
+		m_carte = direction;
+	}
 }
